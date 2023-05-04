@@ -12,9 +12,9 @@
             <x-ui.card.content>
                 <!-- Password -->
                 <div class="grid gap-1.5">
-                    <x-input-label for="password" :value="__('Password')" />
+                    <x-ui.label for="password" :value="__('Password')" />
 
-                    <x-text-input id="password"
+                    <x-ui.input id="password"
                                     type="password"
                                     name="password"
                                     required autocomplete="current-password" />
