@@ -5,13 +5,16 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="pb-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
+            <x-ui.card>
+                <x-ui.card.header>
+                    <x-ui.card.title>{{ __("Welcome") }}</x-ui.card.title>
+                </x-ui.card.header>
+                <x-ui.card.content>
                     {{ __("You're logged in!") }}
-                </div>
-            </div>
+                </x-ui.card.content>
+            </x-ui.card>
         </div>
     </div>
 </x-app-layout>
