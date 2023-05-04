@@ -63,10 +63,8 @@ module.exports = {
             },
 
             fontFamily: {
-                sans: ["var(--font-sans)", ...defaultTheme.fontFamily.sans],
+                // sans: ["var(--font-sans)", ...defaultTheme.fontFamily.sans],
             },
         },
     },
-
-    plugins: [require('@tailwindcss/forms')],
 };
