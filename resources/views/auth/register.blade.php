@@ -6,12 +6,12 @@
             <x-ui.card.header>
                 <x-ui.card.title>{{ __('Register') }}</x-ui.card.title>
 
-                    <x-ui.card.description>
-                        {{ __('Already have an account?') }}
-                        <a class="underline underline-offset-4 hover:text-primary" href="{{ route('login') }}">
-                            {{ __('Log in') }}
-                        </a>
-                    </x-ui.card.description>
+                <x-ui.card.description>
+                    {{ __('Already have an account?') }}
+                    <a class="underline underline-offset-4 hover:text-primary" href="{{ route('login') }}">
+                        {{ __('Log in') }}
+                    </a>
+                </x-ui.card.description>
             </x-ui.card.header>
 
             <x-ui.card.content>
